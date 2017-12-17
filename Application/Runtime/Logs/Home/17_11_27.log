@@ -1,0 +1,215 @@
+[ 2017-11-27T20:36:15+08:00 ] 127.0.0.1 /web/phplearning/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2017-11-27T20:43:38+08:00 ] 127.0.0.1 /web/phplearning/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2017-11-27T20:44:31+08:00 ] 127.0.0.1 /web/phplearning/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000321s ]
+
+[ 2017-11-27T20:44:51+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Home&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+ERR: 无法加载控制器:Login
+
+[ 2017-11-27T20:45:50+08:00 ] 127.0.0.1 /web/phplearning/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2017-11-27T20:46:08+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Home&c=Register&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+NOTIC: [8] Undefined index: realname /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Home/Controller/RegisterController.class.php 第 15 行.
+NOTIC: [8] Undefined index: mobile /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Home/Controller/RegisterController.class.php 第 16 行.
+NOTIC: [8] Undefined index: age /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Home/Controller/RegisterController.class.php 第 17 行.
+NOTIC: [8] Undefined index: address /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Home/Controller/RegisterController.class.php 第 18 行.
+NOTIC: [8] Undefined index: email /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Home/Controller/RegisterController.class.php 第 19 行.
+NOTIC: [8] Undefined index: passwordnew /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Home/Controller/RegisterController.class.php 第 21 行.
+
+[ 2017-11-27T20:46:23+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Home&c=Register&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+NOTIC: [8] Undefined index: realname /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Home/Controller/RegisterController.class.php 第 15 行.
+NOTIC: [8] Undefined index: mobile /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Home/Controller/RegisterController.class.php 第 16 行.
+NOTIC: [8] Undefined index: age /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Home/Controller/RegisterController.class.php 第 17 行.
+NOTIC: [8] Undefined index: address /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Home/Controller/RegisterController.class.php 第 18 行.
+NOTIC: [8] Undefined index: email /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Home/Controller/RegisterController.class.php 第 19 行.
+NOTIC: [8] Undefined index: passwordnew /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Home/Controller/RegisterController.class.php 第 21 行.
+
+[ 2017-11-27T20:46:28+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Home&c=Register&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Undefined index: realname /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Home/Controller/RegisterController.class.php 第 15 行.
+NOTIC: [8] Undefined index: mobile /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Home/Controller/RegisterController.class.php 第 16 行.
+NOTIC: [8] Undefined index: age /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Home/Controller/RegisterController.class.php 第 17 行.
+NOTIC: [8] Undefined index: address /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Home/Controller/RegisterController.class.php 第 18 行.
+NOTIC: [8] Undefined index: email /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Home/Controller/RegisterController.class.php 第 19 行.
+NOTIC: [8] Undefined index: passwordnew /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Home/Controller/RegisterController.class.php 第 21 行.
+
+[ 2017-11-27T20:47:39+08:00 ] 127.0.0.1 /web/phplearning/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-11-27T20:47:53+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Home&c=Register&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.001784s ]
+SQL: INSERT INTO `cms_users` (`username`,`mobile`,`email`,`password`) VALUES ('2211qaz','1','1','c4ca4238a0b923820dcc509a6f75849b') [ RunTime:0.000535s ]
+
+[ 2017-11-27T20:47:55+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Home/Controller/IndexController.class.php on line 6 and defined /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/ThinkPHP/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/ThinkPHP/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000034s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-11-27T20:53:47+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Home&c=Register&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.002141s ]
+SQL: INSERT INTO `cms_users` (`username`,`realname`,`mobile`,`email`,`password`) VALUES ('yinpengxiao','尹鹏孝','1','1','e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.000573s ]
+
+[ 2017-11-27T20:53:49+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Home/Controller/IndexController.class.php on line 6 and defined /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/ThinkPHP/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/ThinkPHP/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000012s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+

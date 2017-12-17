@@ -1,0 +1,582 @@
+[ 2017-11-27T20:38:40+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Admin&c=Register&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.002229s ]
+SQL: INSERT INTO `cms_admin` (`username`,`realname`,`mobile`,`age`,`address`,`email`,`password`) VALUES ('2','2',2,2,'2','2','c81e728d9d4c2f636f067f89cc14862c') [ RunTime:0.000203s ]
+
+[ 2017-11-27T20:38:41+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000299s ]
+
+[ 2017-11-27T22:02:27+08:00 ] 127.0.0.1 /web/phplearning/Admin/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2017-11-27T22:02:56+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Admin&c=Register&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+ERR: 没有定义数据库配置
+
+[ 2017-11-27T22:03:45+08:00 ] 127.0.0.1 /web/phplearning/Admin/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-11-27T22:03:54+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Admin&c=Register&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+ERR: 没有定义数据库配置
+
+[ 2017-11-27T22:04:11+08:00 ] 127.0.0.1 /web/phplearning/Admin/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2017-11-27T22:04:22+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Admin&c=Register&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.002803s ]
+SQL: INSERT INTO `cms_admin` (`username`,`realname`,`mobile`,`age`,`address`,`email`,`password`) VALUES ('1','1',1,1,'1','1','c4ca4238a0b923820dcc509a6f75849b') [ RunTime:0.000398s ]
+
+[ 2017-11-27T22:04:23+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2017-11-27T22:31:19+08:00 ] 127.0.0.1 /web/phplearning/Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2017-11-27T22:38:50+08:00 ] 127.0.0.1 /web/phplearning/Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000290s ]
+
+[ 2017-11-27T22:41:03+08:00 ] 127.0.0.1 /web/phplearning/Admin/Login?v1111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000312s ]
+
+[ 2017-11-27T22:41:23+08:00 ] 127.0.0.1 /web/phplearning/Admin/Login?v1111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-11-27T22:41:30+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.003483s ]
+NOTIC: [2] Missing argument 2 for Common\Model\AdminModel::getAdminByUserData(), called in /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Admin/Controller/LoginController.class.php on line 23 and defined /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 49 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 50 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="Array" ) LIMIT 1   [ RunTime:0.000458s ]
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 51 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( password="Array" ) LIMIT 1   [ RunTime:0.000305s ]
+
+[ 2017-11-27T22:41:37+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.002205s ]
+NOTIC: [2] Missing argument 2 for Common\Model\AdminModel::getAdminByUserData(), called in /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Admin/Controller/LoginController.class.php on line 23 and defined /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 49 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 50 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="Array" ) LIMIT 1   [ RunTime:0.000522s ]
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 51 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( password="Array" ) LIMIT 1   [ RunTime:0.000638s ]
+
+[ 2017-11-27T22:41:39+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.003123s ]
+NOTIC: [2] Missing argument 2 for Common\Model\AdminModel::getAdminByUserData(), called in /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Admin/Controller/LoginController.class.php on line 23 and defined /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 49 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 50 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="Array" ) LIMIT 1   [ RunTime:0.000636s ]
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 51 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( password="Array" ) LIMIT 1   [ RunTime:0.000385s ]
+
+[ 2017-11-27T22:41:44+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.003157s ]
+NOTIC: [2] Missing argument 2 for Common\Model\AdminModel::getAdminByUserData(), called in /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Admin/Controller/LoginController.class.php on line 23 and defined /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 49 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 50 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="Array" ) LIMIT 1   [ RunTime:0.000364s ]
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 51 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( password="Array" ) LIMIT 1   [ RunTime:0.000288s ]
+
+[ 2017-11-27T22:41:59+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.002374s ]
+NOTIC: [2] Missing argument 2 for Common\Model\AdminModel::getAdminByUserData(), called in /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Admin/Controller/LoginController.class.php on line 23 and defined /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 49 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 50 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="Array" ) LIMIT 1   [ RunTime:0.000329s ]
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 51 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( password="Array" ) LIMIT 1   [ RunTime:0.000424s ]
+
+[ 2017-11-27T22:42:32+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.001382s ]
+NOTIC: [2] Missing argument 2 for Common\Model\AdminModel::getAdminByUserData(), called in /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Admin/Controller/LoginController.class.php on line 23 and defined /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 49 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 50 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="Array" ) LIMIT 1   [ RunTime:0.000386s ]
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 51 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( password="Array" ) LIMIT 1   [ RunTime:0.000242s ]
+
+[ 2017-11-27T22:45:27+08:00 ] 127.0.0.1 /web/phplearning/Admin/Login?v1111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2017-11-27T22:45:33+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.004776s ]
+NOTIC: [2] Missing argument 2 for Common\Model\AdminModel::getAdminByUserData(), called in /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Admin/Controller/LoginController.class.php on line 23 and defined /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 49 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 50 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="Array" ) LIMIT 1   [ RunTime:0.001172s ]
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 51 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( password="Array" ) LIMIT 1   [ RunTime:0.001854s ]
+
+[ 2017-11-27T22:45:36+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.002168s ]
+NOTIC: [2] Missing argument 2 for Common\Model\AdminModel::getAdminByUserData(), called in /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Admin/Controller/LoginController.class.php on line 23 and defined /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 49 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 50 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="Array" ) LIMIT 1   [ RunTime:0.000322s ]
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 51 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( password="Array" ) LIMIT 1   [ RunTime:0.000247s ]
+
+[ 2017-11-27T22:45:46+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.002069s ]
+NOTIC: [2] Missing argument 2 for Common\Model\AdminModel::getAdminByUserData(), called in /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Admin/Controller/LoginController.class.php on line 23 and defined /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 49 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 50 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="Array" ) LIMIT 1   [ RunTime:0.000346s ]
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 51 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( password="Array" ) LIMIT 1   [ RunTime:0.000353s ]
+
+[ 2017-11-27T22:45:51+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.002367s ]
+NOTIC: [2] Missing argument 2 for Common\Model\AdminModel::getAdminByUserData(), called in /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Admin/Controller/LoginController.class.php on line 23 and defined /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 49 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 50 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="Array" ) LIMIT 1   [ RunTime:0.000260s ]
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 51 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( password="Array" ) LIMIT 1   [ RunTime:0.000213s ]
+
+[ 2017-11-27T22:46:06+08:00 ] 127.0.0.1 /web/phplearning/Admin/Login?v1111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-11-27T22:46:24+08:00 ] 127.0.0.1 /web/phplearning/Admin/Login?v1111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2017-11-27T22:46:29+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.002626s ]
+NOTIC: [2] Missing argument 2 for Common\Model\AdminModel::getAdminByUserData(), called in /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Admin/Controller/LoginController.class.php on line 23 and defined /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 49 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 50 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="Array" ) LIMIT 1   [ RunTime:0.001478s ]
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 51 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( password="Array" ) LIMIT 1   [ RunTime:0.000440s ]
+
+[ 2017-11-27T22:46:41+08:00 ] 127.0.0.1 /web/phplearning/Admin/Login?v1111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2017-11-27T22:46:45+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.002830s ]
+NOTIC: [2] Missing argument 2 for Common\Model\AdminModel::getAdminByUserData(), called in /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Admin/Controller/LoginController.class.php on line 23 and defined /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 49 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 50 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="Array" ) LIMIT 1   [ RunTime:0.001101s ]
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 51 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( password="Array" ) LIMIT 1   [ RunTime:0.000355s ]
+
+[ 2017-11-27T22:47:13+08:00 ] 127.0.0.1 /web/phplearning/Admin/Login?v1111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000262s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000274s ]
+
+[ 2017-11-27T22:47:17+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.003353s ]
+NOTIC: [2] Missing argument 2 for Common\Model\AdminModel::getAdminByUserData(), called in /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Admin/Controller/LoginController.class.php on line 23 and defined /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 49 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 50 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="Array" ) LIMIT 1   [ RunTime:0.000444s ]
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 51 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( password="Array" ) LIMIT 1   [ RunTime:0.000324s ]
+
+[ 2017-11-27T22:47:28+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.002768s ]
+NOTIC: [2] Missing argument 2 for Common\Model\AdminModel::getAdminByUserData(), called in /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Admin/Controller/LoginController.class.php on line 23 and defined /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 49 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 50 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="Array" ) LIMIT 1   [ RunTime:0.000825s ]
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 51 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( password="Array" ) LIMIT 1   [ RunTime:0.000476s ]
+
+[ 2017-11-27T22:48:39+08:00 ] 127.0.0.1 /web/phplearning/Admin/Login?v1111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2017-11-27T22:48:43+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.003636s ]
+NOTIC: [2] Missing argument 2 for Common\Model\AdminModel::getAdminByUserData(), called in /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Admin/Controller/LoginController.class.php on line 23 and defined /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 49 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 50 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="Array" ) LIMIT 1   [ RunTime:0.000467s ]
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/AdminModel.class.php 第 51 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( password="Array" ) LIMIT 1   [ RunTime:0.000465s ]
+
+[ 2017-11-27T22:51:31+08:00 ] 127.0.0.1 /web/phplearning/Admin/Login?v1111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2017-11-27T22:51:35+08:00 ] 127.0.0.1 /web/phplearning/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.002711s ]
+NOTIC: [2] Missing argument 2 for Common\Model\AdminModel::getAdminByUserData(), called in /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Admin/Controller/LoginController.class.php on line 23 and defined /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/adminModel.class.php 第 49 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/adminModel.class.php 第 51 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="Array" ) LIMIT 1   [ RunTime:0.000493s ]
+NOTIC: [8] Undefined variable: password /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Common/Model/adminModel.class.php 第 52 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( password="" ) LIMIT 1   [ RunTime:0.001672s ]
+
