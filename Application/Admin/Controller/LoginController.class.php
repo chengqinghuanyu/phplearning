@@ -7,7 +7,7 @@ class LoginController extends Controller{
 	*/
 	public function index(){
 		if(session('adminUser')){
-			$this->redirect('/web/phplearning/Index.php?m=admin&c=index');
+			$this->redirect('/web/phplearning/Index?m=admin&c=index');
 		}
 		$this->display();
     }
@@ -38,7 +38,7 @@ class LoginController extends Controller{
     public function checkout(){
     	session('adminUser',null);
     	//$this->redirect('/web/phplearning/index.php?m=admin&c=login');
-    	$this-redirect('/web/phplearning/Index.php?m=admin&c=login');
+    	$this-redirect('/web/phplearning/Index?m=admin&c=login');
 
     }
     

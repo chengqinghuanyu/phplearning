@@ -1,14 +1,16 @@
 <?php if (!defined('THINK_PATH')) exit();?>
-<link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css"/>
 <script src="https://cdn.bootcss.com/jquery/2.2.0/jquery.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.js"></script>
+<script type="text/javascript" src="../phplearning/Public/admin/js/layer-v3.1.0/layer/layer.js?v=32234"></script>
+<script type="text/javascript" src="../phplearning/Public/admin/js/dalog.js?v=111"></script>
 <body>
 
 <div id="wrapper">
 
     <div>
-	<a href="/web/phplearning/Index.php?m=Admin&c=Login&a=checkout">退出</a>
-
+	<a href="/web/phplearning/Admin?m=Admin&c=Login&a=checkout">退出</a>
 </div>
 
     <div id="page-wrapper">
@@ -119,8 +121,8 @@
 <script>
 
     var SCOPE = {
-        'save_url' : '../phplearning/admin.php?c=menu&a=add',
-        'jump_url' : '../phplearning/admin.php?c=menu',
+        'save_url' : 'http://localhost/web/phplearning/admin?c=menu&a=add',
+        'jump_url' : 'http://localhost/web/phplearning/admin?c=menu',
     }
 </script>
-<script type="text/javascript" src="../phplearning/Public/admin/js/common.js?v=32234aeaa"></script>
+<script type="text/javascript" src="/web/phplearning/Public/admin/js/common.js?v=32234aeaa"></script>

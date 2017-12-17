@@ -8,6 +8,12 @@
 	
 </head>
 <body>
+<link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css"/>
+<script src="https://cdn.bootcss.com/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.js"></script>
+<script type="text/javascript" src="../phplearning/Public/admin/js/layer-v3.1.0/layer/layer.js?v=32234"></script>
+<script type="text/javascript" src="../phplearning/Public/admin/js/dalog.js?v=111"></script>
 <div class="contain-full">
 	<div class="row">
 		<div class="col-md-7">
@@ -30,10 +36,6 @@
 		</div>
 	</div>
 </div>
-<script src="https://cdn.bootcss.com/jquery/2.2.0/jquery.min.js"></script>
-	<script src="https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.js"></script>
-<script type="text/javascript" src="../phplearning/Public/admin/js/layer-v3.1.0/layer/layer.js?v=32234"></script>
-<script type="text/javascript" src="../phplearning/Public/admin/js/dalog.js?v=111"></script>
 <script type="text/javascript" src="../phplearning/Public/admin/js/login.js?v=32234aeaa"></script>
 
 </body>

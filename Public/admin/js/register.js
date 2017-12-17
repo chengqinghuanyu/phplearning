@@ -1,6 +1,6 @@
 $(".btn").on("click",function(){
 	
-	var URL = "/web/phplearning/index.php?m=Admin&c=Register&a=check";
+	var URL = "/web/phplearning/index?m=Admin&c=Register&a=check";
 	var datas = {
 		username : $("#usename").val(),
 		realname : $("#realname").val(),
@@ -49,7 +49,7 @@ $(".btn").on("click",function(){
 				return dialog.error(res.massage);
 			}
 			if(res.statu == 1){
-				return dialog.success(res.massage,'/web/phplearning/index.php?m=Admin&c=Index&a=index');
+				return dialog.success(res.massage,'/web/phplearning/index?m=Admin&c=Index&a=index');
 			}
 		},
 		error:function(res){

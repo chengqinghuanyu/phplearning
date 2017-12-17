@@ -4,7 +4,7 @@ return array(
 	'URL_CASE_INSENSITIVE' => true,
 	'URL_MODEL' => 1,
 	'LODA_EXT_CONFIG' => 'db',
-	'MD5_PRE' => 'sing_cms',
+	//'MD5_PRE' => 'sing_cms',
 	'DB_TYPE' => 'mysqli',//数据库类型低的版本不支持mysq需要修改为mysqlli
 	'DB_HOST' => '127.0.0.1',//数据库地址
 	'DB_USER' => 'root',//数据库用户名

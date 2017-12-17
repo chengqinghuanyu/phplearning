@@ -1,17 +1,29 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
-class MenuController extends Controller{
+class MenuController extends CommonController{
 	/**
-	*登录验证
+	*菜单管理
 	*/
 	public function index(){
-		
+		/*分页操作*/
+		$data = array();
+		$page = $_REQUEST['p']?$_REQUEST['p']:1;
+		$pageSize = $_REQUEST['pageSize'] ? $_REQUEST['pageSize'] : 3;
+		$menus = D('Menu')->getMenus($data,$page,$pageSize);//菜单数据
+
+		$menusCount = D('Menu')->getMenusCount($data);
+
+		$res = new \Think\Page($menusCount,$pageSize);//think自带分页
+		$pageRes = $res->show();//获取数据展示出来
+		$this->assign('pageRes',$pageRes);
+		//var_dump($pageRes);
+		$this->assign('menus',$menus);
 		$this->display();
     }
     public function add(){
     	if($_POST){
-    		print_r($_POST);
+    		//print_r($_POST);
     		if(!isset($_POST['name'])||!$_POST['name']){
     			return show(0,'菜单名不能为空！');
     		}
@@ -25,7 +37,8 @@ class MenuController extends Controller{
     			return show(0,'方法名不能为空！');
     		}
 
-    		$menuId = D("Menu")->insert($_POST);
+    		$menuId = D("menu")->insert($_POST);
+    		//print_r($menuId);
     		if($menuId){
     			show(1,'新增成功',$menuId);
     		}else{

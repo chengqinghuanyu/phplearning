@@ -152,3 +152,125 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000269s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
 
+[ 2017-12-17T12:00:54+08:00 ] 127.0.0.1 /web/phplearning/admin.php?c=menu&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+ERR: 无法加载控制器:Menu
+
+[ 2017-12-17T12:11:39+08:00 ] 127.0.0.1 /web/phplearning/admin.php?c=menu&a=add
+ERR: 无法加载控制器:Menu
+
+[ 2017-12-17T12:12:42+08:00 ] 127.0.0.1 /web/phplearning/admin.php?c=menu&a=add
+ERR: 无法加载控制器:Menu
+
+[ 2017-12-17T12:13:41+08:00 ] 127.0.0.1 /web/phplearning/admin.php?c=menu&a=add
+ERR: 无法加载控制器:Menu
+
+[ 2017-12-17T12:14:46+08:00 ] 127.0.0.1 /web/phplearning/admin.php?c=menu&a=add
+ERR: 无法加载控制器:Menu
+
+[ 2017-12-17T12:15:27+08:00 ] 127.0.0.1 /web/phplearning/admin.php?c=menu&a=add
+ERR: 无法加载控制器:Menu
+
+[ 2017-12-17T12:15:27+08:00 ] 127.0.0.1 /web/phplearning/admin.php?c=menu&a=add
+ERR: 无法加载控制器:Menu
+
+[ 2017-12-17T12:21:30+08:00 ] 127.0.0.1 /web/phplearning/admin.php?c=menu&a=add
+ERR: 无法加载控制器:Menu
+
+[ 2017-12-17T12:22:53+08:00 ] 127.0.0.1 /web/phplearning/admin.php?c=menu&a=add
+ERR: 无法加载控制器:Menu
+
+[ 2017-12-17T12:24:00+08:00 ] 127.0.0.1 /web/phplearning/admin.php?c=menu&a=add
+ERR: 无法加载控制器:Menu
+
+[ 2017-12-17T12:24:09+08:00 ] 127.0.0.1 /web/phplearning/Admin.php?c=menu&a=add
+ERR: 无法加载控制器:Menu
+
+[ 2017-12-17T12:24:12+08:00 ] 127.0.0.1 /web/phplearning/admin.php?c=menu&a=add
+ERR: 无法加载控制器:Menu
+
+[ 2017-12-17T12:26:58+08:00 ] 127.0.0.1 /web/phplearning/Admin.php?c=menu&a=add
+ERR: 无法加载控制器:Menu
+
+[ 2017-12-17T12:28:17+08:00 ] 127.0.0.1 /web/phplearning/admin.php?c=menu&a=add
+ERR: 无法加载控制器:Menu
+
+[ 2017-12-17T12:31:22+08:00 ] 127.0.0.1 /web/phplearning/admin.php?c=menu&a=add
+ERR: 无法加载控制器:Menu
+
+[ 2017-12-17T12:32:55+08:00 ] 127.0.0.1 /web/phplearning/admin.php?c=menu&a=add
+ERR: 无法加载控制器:Menu
+
+[ 2017-12-17T12:36:23+08:00 ] 127.0.0.1 /web/phplearning/Admin.php?c=menu&a=add
+ERR: 无法加载控制器:Menu
+
+[ 2017-12-17T12:36:26+08:00 ] 127.0.0.1 /web/phplearning/Admin.php?c=menu&a=add
+ERR: 无法加载控制器:Menu
+
+[ 2017-12-17T12:36:29+08:00 ] 127.0.0.1 /web/phplearning/Admin.php?c=menu&a=add
+ERR: 无法加载控制器:Menu
+
+[ 2017-12-17T12:36:41+08:00 ] 127.0.0.1 /web/phplearning/admin.php?c=menu&a=add
+ERR: 无法加载控制器:Menu
+
+[ 2017-12-17T12:39:49+08:00 ] 127.0.0.1 /web/phplearning/Admin.php?c=menu&a=add
+ERR: 无法加载控制器:Menu
+
+[ 2017-12-17T14:49:33+08:00 ] 127.0.0.1 /web/phplearning/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Home/Controller/IndexController.class.php on line 6 and defined /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/ThinkPHP/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/ThinkPHP/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000012s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004463s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2017-12-17T16:55:54+08:00 ] 127.0.0.1 /web/phplearning/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/Application/Home/Controller/IndexController.class.php on line 6 and defined /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/ThinkPHP/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /Applications/XAMPP/xamppfiles/htdocs/web/phplearning/ThinkPHP/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2017-12-17T17:00:41+08:00 ] 127.0.0.1 /web/phplearning/index.php?c=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+ERR: 无法加载控制器:Menu
+
