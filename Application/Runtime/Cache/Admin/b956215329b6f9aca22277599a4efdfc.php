@@ -43,8 +43,8 @@
                     <select class="form-control" name="type">
                         <option value='' >请选择类型</option>
 
-                        <option value="1" >后台菜单</option>
-                        <option value="0" >前端导航</option>
+                        <option value="1" <?php if(): ?>selected=" selected"<?php endif; ?>>后台菜单</option>
+                        <option value="0" <?php if(): ?>selected=" selected"<?php endif; ?>>前端导航</option>
                     </select>
                 </div>
 
